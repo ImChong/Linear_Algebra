@@ -37,19 +37,17 @@
 
 1. **向量加法**:
 
-    ```math
-    \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] +
+    $$\[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] +
     \[ \begin{bmatrix} 1 \\ -1 \end{bmatrix} \] =
-    \[ \begin{bmatrix} 3 \\ 2 \end{bmatrix} \]
-    ```
+    \[ \begin{bmatrix} 3 \\ 2 \end{bmatrix} \]$$
 
 2. **向量减法**:
-\[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] -
-\[ \begin{bmatrix} 1 \\ -1 \end{bmatrix} \] =
-\[ \begin{bmatrix} 1 \\ 4 \end{bmatrix} \]
+    \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] -
+    \[ \begin{bmatrix} 1 \\ -1 \end{bmatrix} \] =
+    \[ \begin{bmatrix} 1 \\ 4 \end{bmatrix} \]
 
-1. **标量乘法**:
-3 × \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] =
-\[ \begin{bmatrix} 6 \\ 9 \end{bmatrix} \]
+3. **标量乘法**:
+    3 × \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] =
+    \[ \begin{bmatrix} 6 \\ 9 \end{bmatrix} \]
 
 这些是向量运算的基本概念和方法。在更高级的应用中，还有其他向量运算，如点积、叉积等。
