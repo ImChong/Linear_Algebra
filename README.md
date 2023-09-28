@@ -14,7 +14,7 @@ Repository for linear algebra recap
 2. [**矩阵乘法 (Matrix Multiplication)**](02_Matrix_Multiplication.md):
    > 掌握如何对矩阵进行乘法操作，并理解其背后的几何意义。
 
-3. **行列式 (Determinants)**:
+3. [**行列式 (Determinants)**](03_Determinates.md):
    > 知道行列式的定义、性质和计算方法，以及它们在描述线性系统解的存在性方面的重要性。
 
 4. **线性方程组 (System of Linear Equations)**:
