@@ -9,9 +9,9 @@ Repository for linear algebra recap
 下面是线性代数中相对重要的20%的知识点列表：
 
 1. [**向量 (Vectors) 和标量 (Scalars)**](01_Vectors_Scalars.md):
-    理解标量和向量的基本概念，以及如何进行基本的向量运算，如加法、减法和标量乘法。
+   > 理解标量和向量的基本概念，以及如何进行基本的向量运算，如加法、减法和标量乘法。
 
-2. **矩阵乘法 (Matrix Multiplication)**: 掌握如何对矩阵进行乘法操作，并理解其背后的几何意义。
+2. [**矩阵乘法 (Matrix Multiplication)**](02_Matrix_Multiplication.md): 掌握如何对矩阵进行乘法操作，并理解其背后的几何意义。
 
 3. **行列式 (Determinants)**: 知道行列式的定义、性质和计算方法，以及它们在描述线性系统解的存在性方面的重要性。
 
