@@ -37,14 +37,14 @@
 
 1. **向量加法**:
 
-    $$\[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] +
-    \[ \begin{bmatrix} 1 \\ -1 \end{bmatrix} \] =
-    \[ \begin{bmatrix} 3 \\ 2 \end{bmatrix} \]$$
+    $$ \begin{bmatrix} 2 \\ 3 \end{bmatrix} +
+    \begin{bmatrix} 1 \\ -1 \end{bmatrix} =
+    \begin{bmatrix} 3 \\ 2 \end{bmatrix} $$
 
 2. **向量减法**:
-    \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] -
-    \[ \begin{bmatrix} 1 \\ -1 \end{bmatrix} \] =
-    \[ \begin{bmatrix} 1 \\ 4 \end{bmatrix} \]
+    $$ \begin{bmatrix} 2 \\ 3 \end{bmatrix} -
+    \begin{bmatrix} 1 \\ -1 \end{bmatrix} =
+    \begin{bmatrix} 1 \\ 4 \end{bmatrix} $$
 
 3. **标量乘法**:
     3 × \[ \begin{bmatrix} 2 \\ 3 \end{bmatrix} \] =
