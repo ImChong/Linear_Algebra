@@ -8,7 +8,7 @@ Linear algebra recap
 
 下面是线性代数中相对重要的20%的知识点列表：
 
-1. **[向量 (Vectors) 和标量 (Scalars)](01_Vectors_Scalars.md)**:
+1. **[向量 (Vectors) 和标量 (Scalars)](01_Vectors_and_Scalars.md)**:
    > 理解标量和向量的基本概念，以及如何进行基本的向量运算，如加法、减法和标量乘法。
 
 2. **[矩阵乘法 (Matrix Multiplication)](02_Matrix_Multiplication.md)**:
