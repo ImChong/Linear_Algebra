@@ -16,6 +16,36 @@ A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
 
 对于3x3的矩阵，计算稍微复杂一些，但其背后的思路与2x2的情况类似。
 
+### 1. 3x3矩阵的行列式
+
+考虑以下3x3矩阵：
+
+```math
+A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}
+```
+
+它的行列式计算为：
+
+```math
+\text{det}(A) = a(ei - fh) - b(di - fg) + c(dh - eg)
+```
+
+### 2. 4x4矩阵的行列式
+
+对于一个4x4矩阵：
+
+```math
+B = \begin{bmatrix} a & b & c & d \\ e & f & g & h \\ i & j & k & l \\ m & n & o & p \end{bmatrix}
+```
+
+计算其行列式会更加复杂，因为需要考虑所有可能的组合。行列式的计算为：
+
+```math
+\text{det}(B) = a\text{det}(A_1) - b\text{det}(A_2) + c\text{det}(A_3) - d\text{det}(A_4)
+```
+
+其中 \( A_1, A_2, A_3, \) 和 \( A_4 \) 是从矩阵 \( B \) 中移除第一行以及相应列后得到的3x3次方矩阵。
+
 ## 2. 性质
 
 行列式有许多重要性质，其中一些主要的性质包括：
