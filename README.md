@@ -23,19 +23,19 @@ Repository for linear algebra recap
 5. [**向量空间与子空间 (Vector Spaces and Subspaces)**](05_Vector_Spaces_and_Subspaces.md):
    > 理解基、维度和线性组合的概念，以及如何确定一个集合是否是向量空间或子空间。
 
-6. **线性独立和线性相关 (Linear Independence and Linear Dependence)**:
+6. [**线性独立和线性相关 (Linear Independence and Linear Dependence)**](06_Linear_Independence_and_Linear_Dependence.md):
    > 知道什么是线性独立和线性相关的向量，并理解其在向量空间和解线性方程组中的重要性。
 
-7. **特征值与特征向量 (Eigenvalues and Eigenvectors)**:
+7. [**特征值与特征向量 (Eigenvalues and Eigenvectors)**](07_Eigenvalues_and_Eigenvectors.md):
    > 掌握如何找到一个矩阵的特征值和特征向量，并理解其在多种应用中的重要性。
 
-8. **正交与正规化 (Orthogonality and Regularization)**:
+8. [**正交与正规化 (Orthogonality and Regularization)**](08_Orthogonality_and_Regularization.md):
    > 理解正交性和Gram-Schmidt正规化过程，以及它们在实际应用中的意义。
 
-9. **线性变换 (Linear Transformation)**:
+9. [**线性变换 (Linear Transformation)**](09_Linear_Transformation.md):
     > 知道线性变换和它们与矩阵之间的关系，以及线性变换在几何中的意义。
 
-10. **奇异值分解 (Singular Value Decomposition) 和主成分分析 (Principal Component Analysis)**:
+10. **[奇异值分解 (Singular Value Decomposition)](10_Singular_Value_Decomposition.md) 和[主成分分析 (Principal Component Analysis)](10_Principal_Component_Analysis.md)**:
     > 这两个方法在数据处理和降维中非常重要。
 
 当然，线性代数的内容比这更为丰富。上述列表中的知识点是常用的基础，但在不同的应用背景下，其他的知识点可能会更重要。
