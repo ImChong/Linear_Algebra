@@ -1,6 +1,6 @@
 # Linear_Algebra（线性代数）
 
-Repository for linear algebra recap
+Linear algebra recap
 
 ## 线性代数相对重要的20%的知识点
 
