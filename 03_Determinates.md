@@ -16,7 +16,7 @@ A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
 
 对于3x3的矩阵，计算稍微复杂一些，但其背后的思路与2x2的情况类似。
 
-### 1. 3x3矩阵的行列式
+### 3x3矩阵的行列式
 
 考虑以下3x3矩阵：
 
@@ -30,7 +30,7 @@ A = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix}
 \text{det}(A) = a(ei - fh) - b(di - fg) + c(dh - eg)
 ```
 
-### 2. 4x4矩阵的行列式
+### 4x4矩阵的行列式
 
 对于一个4x4矩阵：
 
