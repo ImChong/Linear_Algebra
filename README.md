@@ -17,10 +17,10 @@ Repository for linear algebra recap
 3. [**行列式 (Determinants)**](03_Determinates.md):
    > 知道行列式的定义、性质和计算方法，以及它们在描述线性系统解的存在性方面的重要性。
 
-4. **线性方程组 (System of Linear Equations)**:
+4. [**线性方程组 (System of Linear Equations)**](04_System_of_Linear_Equations.md):
    > 理解线性方程组和它们的解，包括高斯消元法的应用。
 
-5. **向量空间与子空间 (Vector Spaces and Subspaces)**:
+5. [**向量空间与子空间 (Vector Spaces and Subspaces)**](05_Vector_Spaces_and_Subspaces.md):
    > 理解基、维度和线性组合的概念，以及如何确定一个集合是否是向量空间或子空间。
 
 6. **线性独立和线性相关 (Linear Independence and Linear Dependence)**:
