@@ -25,7 +25,7 @@ Repository for linear algebra recap
 
 8. **正交与正规化 (Orthogonality and Regularization)**: 理解正交性和Gram-Schmidt正规化过程，以及它们在实际应用中的意义。
 
-9.  **线性变换 (Linear Transformation)**: 知道线性变换和它们与矩阵之间的关系，以及线性变换在几何中的意义。
+9. **线性变换 (Linear Transformation)**: 知道线性变换和它们与矩阵之间的关系，以及线性变换在几何中的意义。
 
 10. **奇异值分解 (Singular Value Decomposition) 和主成分分析 (Principal Component Analysis)**: 这两个方法在数据处理和降维中非常重要。
 
