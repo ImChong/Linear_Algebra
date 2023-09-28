@@ -44,7 +44,7 @@ B = \begin{bmatrix} a & b & c & d \\ e & f & g & h \\ i & j & k & l \\ m & n & o
 \text{det}(B) = a\text{det}(A_1) - b\text{det}(A_2) + c\text{det}(A_3) - d\text{det}(A_4)
 ```
 
-其中 \( A_1, A_2, A_3, \) 和 \( A_4 \) 是从矩阵 \( B \) 中移除第一行以及相应列后得到的3x3次方矩阵。
+其中 $$ A_1, A_2, A_3, $$ 和 $$ A_4 $$ 是从矩阵 $$ B $$ 中移除第一行以及相应列后得到的3x3次方矩阵。
 
 ## 2. 性质
 
