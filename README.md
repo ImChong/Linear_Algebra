@@ -1,4 +1,4 @@
-# Practice_Linear_Algebra
+# Linear_Algebra（线性代数）
 
 Repository for linear algebra recap
 
