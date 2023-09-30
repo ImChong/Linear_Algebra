@@ -76,23 +76,31 @@ $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 4. 如果 $\Delta < 0$，方程没有实数根，但有两个复数根。
 
 解此方程，得到两个特征值为：
-
 $\lambda_1 = \frac{5 + \sqrt{5}}{2}$ 和 $\lambda_2 = \frac{5 - \sqrt{5}}{2}$
 
 1. **计算特征向量**：
 
 对于每个特征值，我们将其代入 $A - \lambda I$ ，然后求解线性方程组来得到特征向量。
 
-对于 $ \lambda_1 $:
+对于 $\lambda_1$:
+
+```math
 \begin{bmatrix}
 2 - \frac{5 + \sqrt{5}}{2} & 1 \\
 1 & 3 - \frac{5 + \sqrt{5}}{2} \\
 \end{bmatrix}
+```
+
+```math
 \begin{bmatrix}
 \frac{-1 - \sqrt{5}}{2} & 1 \\
 1 & \frac{1 - \sqrt{5}}{2} \\
 \end{bmatrix}
+```
+
+```math
 x_1 + (\frac{-1 - \sqrt{5}}{2})x_2 = 0
+```
 
 这给我们一个特征向量方向。
 
