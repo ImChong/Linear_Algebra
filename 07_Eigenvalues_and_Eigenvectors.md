@@ -30,7 +30,9 @@ A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}
 
 找特征值：
 
-$$ \text{det}(A - \lambda I) = \text{det}\left( \begin{bmatrix} 2-\lambda & 1 \\ 1 & 3-\lambda \end{bmatrix} \right) = (2-\lambda)(3-\lambda) - 1 = 0 $$
+```math
+\text{det}(A - \lambda I) = \text{det}\left( \begin{bmatrix} 2-\lambda & 1 \\ 1 & 3-\lambda \end{bmatrix} \right) = (2-\lambda)(3-\lambda) - 1 = 0
+```
 
 解这个方程，我们得到 $\lambda_1 = 1$ 和 $\lambda_2 = 4$。
 
