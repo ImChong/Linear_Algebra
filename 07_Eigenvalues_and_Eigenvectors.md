@@ -87,14 +87,14 @@ $\lambda_1 = \frac{5 + \sqrt{5}}{2}$ 和 $\lambda_2 = \frac{5 - \sqrt{5}}{2}$
 ```math
 \begin{bmatrix}
 2 - \frac{5 + \sqrt{5}}{2} & 1 \\
-1 & 3 - \frac{5 + \sqrt{5}}{2} \\
+1 & 3 - \frac{5 + \sqrt{5}}{2}
 \end{bmatrix}
 ```
 
 ```math
 \begin{bmatrix}
 \frac{-1 - \sqrt{5}}{2} & 1 \\
-1 & \frac{1 - \sqrt{5}}{2} \\
+1 & \frac{1 - \sqrt{5}}{2}
 \end{bmatrix}
 ```
 
