@@ -37,7 +37,12 @@ A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}
 解这个方程，我们得到 $\lambda_1 = 1$ 和 $\lambda_2 = 4$。
 
 对于 $\lambda_1 = 1$，求解：
-$(A - I) \cdot v = 0$
+$$(A - I) \cdot v = 0$$
+
+```math
+(A - I) \cdot v = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \cdot \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = 0
+```
+
 我们得到特征向量为 [-1, 1]。
 
 对于 $\lambda_2 = 4$，求解：
