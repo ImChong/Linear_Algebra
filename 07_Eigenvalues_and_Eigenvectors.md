@@ -22,38 +22,69 @@ A \cdot v = \lambda \cdot v
 
 ## 举例
 
-考虑一个 2x2 矩阵：
+这里我们将计算一个 $2 \times 2$ 矩阵的特征值和特征向量。
 
-```math
-A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}
-```
+给定矩阵
+\[ A = \begin{bmatrix}
+2 & 1 \\
+1 & 3 \\
+\end{bmatrix} \]
 
-找特征值：
+1. **计算特征值**：
 
-```math
-\text{det}(A - \lambda I) = \text{det}\left( \begin{bmatrix} 2-\lambda & 1 \\ 1 & 3-\lambda \end{bmatrix} \right) = (2-\lambda)(3-\lambda) - 1 = 0
-```
+为了找到特征值 \(\lambda\)，我们需要解决以下特征方程：
+\[ \text{det}(A - \lambda I) = 0 \]
 
-解这个方程，我们得到 $\lambda_1 = 1$ 和 $\lambda_2 = 4$。
+其中 \(I\) 是单位矩阵。计算得到：
+\[ \text{det}\left( \begin{bmatrix}
+2 - \lambda & 1 \\
+1 & 3 - \lambda \\
+\end{bmatrix} \right) = 0 \]
 
-对于 $\lambda_1 = 1$，求解：
-$$(A - I) \cdot v = 0$$
+\[ (2 - \lambda)(3 - \lambda) - 1(1) = 0 \]
 
-```math
-(A - I) \cdot v = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \cdot \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = 0
-```
+\[ \lambda^2 - 5\lambda + 6 - 1 = 0 \]
 
-我们需要解线性方程组：
+\[ \lambda^2 - 5\lambda + 5 = 0 \]
 
-```math
-\begin{align*} v_1 + v_2 & = 0 \\ v_1 + 2v_2 & = 0 \end{align*}
-```
+一元二次方程式的标准形式为：
+\[ ax^2 + bx + c = 0 \]
 
-我们得到特征向量为 [-1, 1]。
+其中，\(a\), \(b\), 和 \(c\) 是常数且 \(a \neq 0\)。
 
-对于 $\lambda_2 = 4$，求解：
-$(A - 4I) \cdot v = 0$
-我们得到特征向量为 [1, 1]。
+这个方程的解（也称为根）可以通过以下公式得到，这公式又称为 **"求根公式"** 或 **"二次公式"**：
+\[ x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a} \]
+
+其中，符号 "±" 表示方程有两个解，一个是加号，另一个是减号。
+
+详细步骤：
+1. 计算判别式 \( \Delta = b^2-4ac \)。
+2. 如果 \( \Delta > 0 \)，那么方程有两个不同的实数根。
+3. 如果 \( \Delta = 0 \)，方程有两个相同的实数根（或一个重根）。
+4. 如果 \( \Delta < 0 \)，方程没有实数根，但有两个复数根。
+
+解此方程，得到两个特征值为：\[ \lambda_1 = \frac{5 + \sqrt{5}}{2} \] 和 \[ \lambda_2 = \frac{5 - \sqrt{5}}{2} \]。
+
+1. **计算特征向量**：
+
+对于每个特征值，我们将其代入 \(A - \lambda I\) ，然后求解线性方程组来得到特征向量。
+
+对于 \( \lambda_1 \):
+\[ \begin{bmatrix}
+2 - \frac{5 + \sqrt{5}}{2} & 1 \\
+1 & 3 - \frac{5 + \sqrt{5}}{2} \\
+\end{bmatrix} \]
+\[ \begin{bmatrix}
+\frac{-1 - \sqrt{5}}{2} & 1 \\
+1 & \frac{1 - \sqrt{5}}{2} \\
+\end{bmatrix} \]
+x_1 + (\frac{-1 - \sqrt{5}}{2})x_2 = 0
+
+这给我们一个特征向量方向。
+
+对于 \( \lambda_2 \)，操作同样，得到另一个特征向量。
+
+注意，这只是为了说明过程。在实际应用中，特征向量会被归一化，通常需要进一步的操作和细节处理。对于更大的矩阵，或者有复数特征值的矩阵，手动计算会更复杂，通常会使用数学软件来求解。
 
 ## 在多种应用中的重要性
 
