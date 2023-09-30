@@ -4,41 +4,45 @@
 
 ## 如何找到一个矩阵的特征值和特征向量
 
-对于一个矩阵 \(A\)，如果存在一个非零向量 \(v\) 和一个标量 \(\lambda\) 使得：
+对于一个矩阵 $A$，如果存在一个非零向量 $v$ 和一个标量 $\lambda$ 使得：
 
-\[ A \cdot v = \lambda \cdot v \]
+```math
+A \cdot v = \lambda \cdot v
+```
 
-那么，\(\lambda\) 被称为矩阵 \(A\) 的一个**特征值**，而 \(v\) 是与之对应的**特征向量**。
+那么，$\lambda$ 被称为矩阵 $A$ 的一个**特征值**，而 $v$ 是与之对应的**特征向量**。
 
 ### 找特征值的步骤
 
-1. 对于给定矩阵 \(A\)，写出特征方程：
-\[ \text{det}(A - \lambda I) = 0 \]
-其中 \(I\) 是单位矩阵，\(\lambda\) 是特征值。
+1. 对于给定矩阵 $A$，写出特征方程：
+$$ \text{det}(A - \lambda I) = 0 $$
+其中 $I$ 是单位矩阵，$\lambda$ 是特征值。
 
 2. 解这个多项式方程，得到的根即为特征值。
 
 ### 找特征向量的步骤
 
-1. 使用上面找到的每一个特征值 \(\lambda_i\)，求解线性方程组：
-\[ (A - \lambda_i I) \cdot v = 0 \]
-得到的解 \(v\) 就是与 \(\lambda_i\) 对应的特征向量。
+1. 使用上面找到的每一个特征值 $\lambda_i$，求解线性方程组：
+$$ (A - \lambda_i I) \cdot v = 0 $$
+得到的解 $v$ 就是与 $\lambda_i$ 对应的特征向量。
 
 ## 举例
 
 考虑一个 2x2 矩阵：
-\[ A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} \]
+$$ A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} $$
 
 找特征值：
-\[ \text{det}(A - \lambda I) = \text{det}\left( \begin{bmatrix} 2-\lambda & 1 \\ 1 & 3-\lambda \end{bmatrix} \right) = (2-\lambda)(3-\lambda) - 1 = 0 \]
-解这个方程，我们得到 \(\lambda_1 = 1\) 和 \(\lambda_2 = 4\)。
 
-对于 \(\lambda_1 = 1\)，求解：
-\[ (A - I) \cdot v = 0 \]
+$$ \text{det}(A - \lambda I) = \text{det}\left( \begin{bmatrix} 2-\lambda & 1 \\ 1 & 3-\lambda \end{bmatrix} \right) = (2-\lambda)(3-\lambda) - 1 = 0 $$
+
+解这个方程，我们得到 $\lambda_1 = 1$ 和 $\lambda_2 = 4$。
+
+对于 $\lambda_1 = 1$，求解：
+$$ (A - I) \cdot v = 0 $$
 我们得到特征向量为 [-1, 1]。
 
-对于 \(\lambda_2 = 4\)，求解：
-\[ (A - 4I) \cdot v = 0 \]
+对于 $\lambda_2 = 4$，求解：
+$$ (A - 4I) \cdot v = 0 $$
 我们得到特征向量为 [1, 1]。
 
 ## 在多种应用中的重要性
