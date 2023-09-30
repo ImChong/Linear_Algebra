@@ -41,7 +41,7 @@ $$\text{det}(A - \lambda I) = 0$$
 ```math
 \text{det}\left( \begin{bmatrix}
 2 - \lambda & 1 \\
-1 & 3 - \lambda \\
+1 & 3 - \lambda
 \end{bmatrix} \right) = 0
 ```
 
