@@ -24,7 +24,8 @@ A \cdot v = \lambda \cdot v
 
 这里我们将计算一个 $2 \times 2$ 矩阵的特征值和特征向量。
 
-给定矩阵 $$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \\ \end{bmatrix}$$
+给定矩阵
+$$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \\ \end{bmatrix}$$
 
 1. **计算特征值**：
 
