@@ -76,7 +76,7 @@ $$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
 4. 如果 $\Delta < 0$，方程没有实数根，但有两个复数根。
 
 解此方程，得到两个特征值为：
-$$\lambda_1 = \frac{5 + \sqrt{5}}{2} 和 \lambda_2 = \frac{5 - \sqrt{5}}{2}$$
+$\lambda_1 = \frac{5 + \sqrt{5}}{2}$ 和 $\lambda_2 = \frac{5 - \sqrt{5}}{2}$
 
 1. **计算特征向量**：
 
