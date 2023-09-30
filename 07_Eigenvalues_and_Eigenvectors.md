@@ -23,7 +23,7 @@ A \cdot v = \lambda \cdot v
 ## 举例
 
 考虑一个 2x2 矩阵：
-$$ A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} $$
+$$A = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$$
 
 找特征值：
 
