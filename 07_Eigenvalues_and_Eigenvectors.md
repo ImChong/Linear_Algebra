@@ -18,7 +18,7 @@ A \cdot v = \lambda \cdot v
 
 2. 解这个多项式方程，得到的根即为特征值。
 
-3. 使用上面找到的每一个特征值 $\lambda_i$，求解线性方程组： $$(A - \lambda_i I) \cdot v = 0$$ 得到的解 $v$ 就是与 $\lambda_i$ 对应的特征向量。
+3. 使用上面找到的每一个特征值 $\lambda_i$，求解线性方程组： $(A - \lambda_i I) \cdot v = 0$ 得到的解 $v$ 就是与 $\lambda_i$ 对应的特征向量。
 
 ## 举例
 
