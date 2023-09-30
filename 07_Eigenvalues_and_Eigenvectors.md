@@ -20,7 +20,7 @@ A \cdot v = \lambda \cdot v
 \text{det}(A - \lambda I) = 0
 ```
 
-其中 $I$ 是单位矩阵，$\lambda$ 是特征值。
+其中 $I$ 是单位矩阵， $\lambda$ 是特征值。
 
 2. 解这个多项式方程，得到的根即为特征值。
 
