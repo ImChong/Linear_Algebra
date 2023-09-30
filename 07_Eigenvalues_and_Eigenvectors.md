@@ -43,6 +43,9 @@ $$(A - I) \cdot v = 0$$
 (A - I) \cdot v = \begin{bmatrix} 1 & 1 \\ 1 & 2 \end{bmatrix} \cdot \begin{bmatrix} v_1 \\ v_2 \end{bmatrix} = 0
 ```
 
+我们需要解线性方程组：
+$$\begin{align*} v_1 + v_2 & = 0 \\ v_1 + 2v_2 & = 0 \end{align*}$$
+
 我们得到特征向量为 [-1, 1]。
 
 对于 $\lambda_2 = 4$，求解：
